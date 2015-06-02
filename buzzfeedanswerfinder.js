@@ -1,4 +1,4 @@
-javascript:(function() {
+(function() {
   var answerList = document.getElementsByClassName('quiz_result'),
       questionList;
 
@@ -8,4 +8,4 @@ javascript:(function() {
   }
 
   [].forEach.call(answerList, function(v,i,a){v.style.display = 'block'});
-});
+})();
